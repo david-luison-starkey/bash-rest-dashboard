@@ -1,0 +1,3 @@
+[submodule "modules/bash-rest"]
+	path = modules/bash-rest
+	url = https://github.com/david-luison-starkey/bash-rest.git
