@@ -1,8 +1,8 @@
-const template = document.createElement('template');
+function loadScript(src) {
+  let script = document.createElement('script');
+  script.src = src;
+  script.async = false;
+  document.body.append(script);
+}
 
-template.innerHTML = `
-  <h1>Hello, World!</h1>
-  <p>And all who inhabit it</p>
-`;
-
-document.body.appendChild(template.content);
+loadScript("./components/header/header.js")
