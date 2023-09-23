@@ -1,4 +1,4 @@
-# bash-rest-demo
+# bash-rest-dashboard
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://github.com/david-luison-starkey/bash-annotations/blob/main/LICENSE)
 ---
