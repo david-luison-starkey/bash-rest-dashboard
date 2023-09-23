@@ -8,4 +8,3 @@ function loadScript(src) {
 // Load scripts synchronously as netcat can't handle simultaneous requests
 loadScript("./components/header/header.js")
 loadScript("./components/process-chart/process-chart.js")
-// loadScript("./components/process-search/process-search.js")

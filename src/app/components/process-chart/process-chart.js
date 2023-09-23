@@ -20,10 +20,10 @@ class ProcessChart extends HTMLElement {
 
 
 const fetchData = async (processName) => {
-  console.log(processName)
   if (!processName) {
     return null;
   }
+
   try {
     const response = await fetch(`/process-chart/data/${processName}`);
     return await response.json();
