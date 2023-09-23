@@ -10,13 +10,18 @@
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/tailwindcss@^1.9.6/dist/tailwind.min.css" rel="stylesheet">
   <!-- <script type="text/javascript" src="https://livejs.com/live.js"></script> -->
-  <script src="./app.js" type="text/javascript" defer> </script>
+  <!-- Step 1 - Include the fusioncharts core library -->
+  <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+  <!-- Step 2 - Include the fusion theme -->
+  <script type="text/javascript"
+    src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+  <script src="./dashboard.js" type="text/javascript" defer> </script>
 </head>
 
-<body style="font-family: 'JetBrains Mono', monospace !important;" class="h-full w-full flex flex-row box-border">
-  <header-component></header-component>
-  <main class="flex">
-    <!-- router-outlet -->
+<body style="font-family: 'JetBrains Mono', monospace !important;" class="h-full w-full flex">
+  <header-component class="flex"></header-component>
+  <main class="flex-1 mt-16 p-2">
+    <!-- content -->
   </main>
 </body>
 

@@ -7,9 +7,9 @@ class Header extends HTMLElement {
     this.innerHTML = `
   <header class="fixed flex justify-between overflow-hidden h-16 top-0 left-0 right-0 w-max bg-black">
     <nav class="flex">
-      <ul class="overflow-hidden flex items-center gap-x-1 text-center ml-4">
-        <li class="float-left text-green-600 font-bold">&#8250;</li>
-        <li class="float-left text-white">Bash-Rest-Dashboard</li>
+      <ul class="overflow-hidden flex items-center text-center ml-4">
+        <li class="float-left"><p class="text-white float-left">$</p><p class="text-green-600 float-left font-bold">_</p></li>
+        <li class="float-left ml-2 text-white">Bash-Rest-Dashboard</li>
       </ul>
     </nav>
 
